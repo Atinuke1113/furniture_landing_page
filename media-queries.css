@@ -1,0 +1,41 @@
+/* Base styles */
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
